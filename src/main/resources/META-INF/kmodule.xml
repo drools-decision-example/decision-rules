@@ -1,28 +1,7 @@
 <kmodule xmlns="http://www.drools.org/xsd/kmodule" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
- <!-- <kbase name="Person" default="true" eventProcessingMode="stream" equalsBehavior="identity" packages="myteam">
-    <ksession name="Person_Stateful" type="stateful" default="false" clockType="realtime"/>
-    <ksession name="Person_Stateless" type="stateless" default="false" clockType="realtime"/>
-  </kbase>
-  
-  <kbase name="rules" packages="rules">
-        <ksession name="ksession-rules" type="stateless" default="false" clockType="realtime"/>
-  </kbase> -->
-  
-	<kbase name="TroubleTicketKB" packages="org.drools.examples.troubleticket">
-        <ksession name="TroubleTicketKS"/>
-    </kbase>
-
-    <kbase name="TroubleTicketWithDSLKB" packages="org.drools.examples.troubleticketWithDSL">
-        <ksession name="TroubleTicketWithDSLKS"/>
-    </kbase>
-
-    <kbase name="TroubleTicketWithDTKB" packages="org.drools.examples.troubleticketWithDT">
-        <ksession name="TroubleTicketWithDTKS"/>
-    </kbase>
-	
-	<kbase name="CustomerDiscountKB" packages="net.cloudburo.drools.rules">
-        <ksession name="CustomerDiscountKS"/>
-    </kbase>
+     <kbase name="DecisionTableKB" packages="org.drools.examples.decisiontable">
+        <ksession name="DecisionTableKS" type="stateless"/>
+ </kbase>
 </kmodule>
 
 
